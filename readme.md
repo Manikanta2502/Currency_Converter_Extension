@@ -1,6 +1,6 @@
 # 💱 Currency Converter Chrome Extension
 
-A Chrome Extension that automatically detects and converts currencies on webpages to your preferred currency. It supports single values, ranges, and even mixed currencies — with real-time display in numbers!
+A Chrome Extension that automatically detects and converts currencies on webpages to your preferred currency. It supports single values and ranges — with real-time display both in words and in numbers!
 
 ---
 
@@ -17,6 +17,7 @@ A Chrome Extension that automatically detects and converts currencies on webpage
 
 - 🧠 **Smart Display**
   - Numbers: `$10 → ₹830`
+  - Words: `Ten dollars → Eight hundred thirty rupees`
 
 - 🔁 **Live Exchange Rates**
   - Updates once daily from [Frankfurter API](https://www.frankfurter.app/)
@@ -30,10 +31,21 @@ A Chrome Extension that automatically detects and converts currencies on webpage
 
 ## 🛠️ Setup Instructions
 
+### 🔖 Option 1: Install via GitHub Release
+
+1. Go to the [Latest Release](https://github.com/yourusername/currency-converter-extension/releases/latest)
+2. Download the `.zip` file (e.g., `currency-converter-extension.zip`)
+3. Extract it to a folder on your computer
+4. Open `chrome://extensions/` in Chrome
+5. Enable **Developer Mode** (top-right toggle)
+6. Click **Load unpacked** and select the extracted folder
+
+### 💻 Option 2: Clone & Load Locally
+
 1. **Clone this repository**
 
    ```bash
-   git clone https://github.com/yourusername/currency-converter-extension.git
+   git clone https://github.com/manikanta2502/currency-converter-extension.git
    cd currency-converter-extension
 
 2. **Open Chrome Extension Page**
@@ -48,6 +60,9 @@ A Chrome Extension that automatically detects and converts currencies on webpage
 
     Click the extension icon, pick your default currency from the dropdown, and save.
 
+---
+## Note
+- Reload the Page after changing the currency for updating the script to the new currency.
 
 ---
 
