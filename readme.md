@@ -19,8 +19,11 @@ A Chrome Extension that automatically detects and converts currencies on webpage
   - Numbers: `$10 → ₹830`
   - Words: `Ten dollars → Eight hundred thirty rupees`
 
+- 🚩 **Countries**
+  - Supports `150+` currencies for detection and translation of `50+` currencies.
+
 - 🔁 **Live Exchange Rates**
-  - Updates once daily from [Frankfurter API](https://www.frankfurter.app/)
+  - Updates once daily from [ExchangeRate API]([text](https://www.exchangerate-api.com/))
   - Offline support with cached rates
 
 - ⚙️ **User Preferences**
@@ -33,7 +36,7 @@ A Chrome Extension that automatically detects and converts currencies on webpage
 
 ### 🔖 Option 1: Install via GitHub Release
 
-1. Go to the [Latest Release](https://github.com/yourusername/currency-converter-extension/releases/latest)
+1. Go to the [Latest Release](https://github.com/Manikanta2502/Currency_Converter_Extension/releases)
 2. Download the `.zip` file (e.g., `currency-converter-extension.zip`)
 3. Extract it to a folder on your computer
 4. Open `chrome://extensions/` in Chrome
@@ -68,7 +71,6 @@ A Chrome Extension that automatically detects and converts currencies on webpage
 
 ## 🚀 Future Enhancements
 
-- ✅ Right-click menu: “Convert this amount”
 - 🧾 Conversion history
 - 📊 Custom formats: accounting style (e.g., USD 1,000.00)
 - 🧠 AI-based context filtering to ignore dates, phone numbers, etc.
@@ -77,7 +79,7 @@ A Chrome Extension that automatically detects and converts currencies on webpage
 
 ## 📦 APIs & Libraries Used
 
-- 📡 [Frankfurter API](https://www.frankfurter.app/) – for live exchange rates
+- 📶 [ExchangeRate API](https://www.exchangerate-api.com/) - for live exchange rates
 - 🔢 [bignumber.js](https://github.com/MikeMcl/bignumber.js/) – for large currency calculations (planned)
 
 ---

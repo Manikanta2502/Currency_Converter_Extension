@@ -2,6 +2,7 @@
 // This file contains a comprehensive list of ISO currency codes and their symbols.
 
 const currencies = [
+  { code: "INR", name: "Indian Rupee", symbol: "₹" },
   { code: "USD", name: "United States Dollar", symbol: "$" },
   { code: "EUR", name: "Euro", symbol: "€" },
   { code: "GBP", name: "British Pound Sterling", symbol: "£" },
@@ -12,7 +13,6 @@ const currencies = [
   { code: "CNY", name: "Chinese Yuan", symbol: "¥" },
   { code: "SEK", name: "Swedish Krona", symbol: "kr" },
   { code: "NZD", name: "New Zealand Dollar", symbol: "NZ$" },
-  { code: "INR", name: "Indian Rupee", symbol: "₹" },
   { code: "BRL", name: "Brazilian Real", symbol: "R$" },
   { code: "RUB", name: "Russian Ruble", symbol: "₽" },
   { code: "ZAR", name: "South African Rand", symbol: "R" },

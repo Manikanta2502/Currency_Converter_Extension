@@ -1,7 +1,7 @@
 // background.js
 // This script runs in the background and handles fetching and caching exchange rates.
 
-const API_URL = "https://api.frankfurter.app/latest";
+const API_URL = "https://open.er-api.com/v6/latest/USD";
 const CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
 /**
