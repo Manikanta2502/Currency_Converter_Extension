@@ -2,6 +2,8 @@
 
 A Chrome Extension that automatically detects and converts currencies on webpages to your preferred currency. It supports single values and ranges — with real-time display both in words and in numbers!
 
+Convert the prices and currencies to your preferenced currencies in `real-time` values with a **Single Click...**
+
 <img src="assets\Live_working_of_currency_converter.png" alt="Currency Converter Extension Screenshot" width="500" height="300" />
 
 
